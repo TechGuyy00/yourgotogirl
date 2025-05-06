@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setups - Your Go To Girl</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="pics/logo.jpg" alt="Logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="setups.html" class="active">Setups</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="setups">
+            <div class="setup-item" data-setup="dome">
+                <img src="pics/s1.jpg" alt="Setup 1">
+                <h3>F.R.I.E.N.D.S Theme</h3>
+                <p>Elegant and Memorable</p>
+                <button class="view-more-btn">View More</button>
+            </div>
+            <div class="setup-item" data-setup="modern">
+                <img src="pics/p1.jpg" alt="Setup 2">
+                <h3>Candy Carts</h3>
+                <p>Contemporary and stylish</p>
+                <button class="view-more-btn">View More</button>
+            </div>
+            <div class="setup-item" data-setup="luxury">
+                <img src="pics/1cc.jpg" alt="Setup 3">
+                <h3>Cakes</h3>
+                <p>Premium and sophisticated</p>
+                <button class="view-more-btn">View More</button>
+            </div>
+            <div class="setup-item" data-setup="minimal">
+                <img src="pics/m4.jpg" alt="Setup 4">
+                <h3>Wedding Ceremony Dinner</h3>
+                <p>Simple and clean design</p>
+                <button class="view-more-btn">View More</button>
+            </div>
+            <div class="setup-item" data-setup="professional">
+                <img src="pics/w1.jpg" alt="Setup 5">
+                <h3>Professional Setup</h3>
+                <p>Perfect for work and play</p>
+                <button class="view-more-btn">View More</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Image Viewer Modal -->
+    <div class="image-viewer" id="imageViewer">
+        <div class="viewer-content">
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+            <button class="nav-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <button class="nav-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            <div class="main-image">
+                <img src="" alt="Setup Image">
+            </div>
+            <div class="thumbnail-container">
+                <!-- Thumbnails will be added dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/yourgotogirl_events?igsh=dmhrM3o3NDZxem5o" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/share/1NeAL3Qtza/" target="_blank" class="social-icon">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="mailto:info@yourgotogirl.co.za" target="_blank" class="social-icon">
+                <i class="fab fa-envelope"></i>
+            </a>
+            <a href="https://wa.me/+27613489176" target="_blank" class="social-icon">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+        <p>&copy; 2025 Your Go To Girl. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

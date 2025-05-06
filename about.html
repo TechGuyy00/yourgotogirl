@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Your Go To Girl</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="pics/logo.jpg" alt="Logo">
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="setups.html">Setups</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-section">
+            <div class="about-content">
+                <h2>About Your Go To Girl</h2>
+                <p>Welcome to Your Go To Girl, your ultimate destination for style and inspiration. We are dedicated to providing you with the latest trends, beautiful setups, and a curated gallery of stunning visuals.</p>
+                
+                <div class="about-features">
+                    <div class="feature">
+                        <h3>Our Mission</h3>
+                        <p>To inspire and empower through beautiful design and curated content.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Our Vision</h3>
+                        <p>To be the go-to platform for style inspiration and creative ideas.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Our Values</h3>
+                        <p>Quality, creativity, and attention to detail in everything we do.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews-section">
+            <h2>What Our Clients Say</h2>
+            <div class="reviews-container">
+                <div class="review">
+                    <div class="review-header">
+                        <img src="pics/1a.jpg" alt="Client 1" class="review-avatar">
+                        <div class="review-info">
+                            <h3>Sarah Johnson</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"Absolutely amazing experience! The attention to detail and personalized service was beyond my expectations. Highly recommend!"</p>
+                    <p class="review-date">March 15, 2024</p>
+                </div>
+
+                <div class="review">
+                    <div class="review-header">
+                        <img src="pics/1f.jpg" alt="Client 2" class="review-avatar">
+                        <div class="review-info">
+                            <h3>Michael Brown</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"Professional and creative team. They transformed my look completely. Will definitely come back for more sessions!"</p>
+                    <p class="review-date">March 10, 2024</p>
+                </div>
+
+                <div class="review">
+                    <div class="review-header">
+                        <img src="pics/1w.jpg" alt="Client 3" class="review-avatar">
+                        <div class="review-info">
+                            <h3>Emily Davis</h3>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="review-text">"The best styling service I've ever experienced. They really understand what their clients want and deliver beyond expectations."</p>
+                    <p class="review-date">March 5, 2024</p>
+                </div>
+            </div>
+
+            <div class="add-review">
+                <h3>Share Your Experience</h3>
+                <form id="reviewForm" class="review-form">
+                    <div class="form-group">
+                        <label for="reviewerName">Your Name</label>
+                        <input type="text" id="reviewerName" name="reviewerName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reviewerEmail">Your Email</label>
+                        <input type="email" id="reviewerEmail" name="reviewerEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reviewRating">Rating</label>
+                        <div class="rating-input">
+                            <i class="far fa-star" data-rating="1"></i>
+                            <i class="far fa-star" data-rating="2"></i>
+                            <i class="far fa-star" data-rating="3"></i>
+                            <i class="far fa-star" data-rating="4"></i>
+                            <i class="far fa-star" data-rating="5"></i>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="reviewText">Your Review</label>
+                        <textarea id="reviewText" name="reviewText" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit Review</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/yourgotogirl_events?igsh=dmhrM3o3NDZxem5o" class="social-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/share/1NeAL3Qtza/" class="social-icon">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="mailto:info@yourgotogirl.co.za" class="social-icon">
+                <i class="fab fa-envelope"></i>
+            </a>
+            <a href="https://wa.me/+27613489176" class="social-icon">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+        <p>&copy; 2025 Your Go To Girl. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

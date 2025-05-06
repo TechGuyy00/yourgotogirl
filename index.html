@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Go To Girl</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="pics/logo.jpg" alt="Logo">
+            </div>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="setups.html">Setups</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-image"></div>
+            <div class="hero-image"></div>
+            <div class="hero-image"></div>
+            <div class="hero-content">
+                <h1>Welcome to Your Go To Girl</h1>
+                <p>Discover the perfect blend of style and comfort</p>
+            </div>
+        </section>
+
+        <section class="featured-blocks">
+            <div class="block">
+                <i class="fab fa-facebook"></i>
+                <h2>Facebook</h2>
+                <p>Follow us for daily updates and inspiration</p>
+                <a href="https://www.facebook.com/share/1NeAL3Qtza/" class="social-link">Connect with us</a>
+            </div>
+            <div class="block">
+                <i class="fab fa-instagram"></i>
+                <h2>Instagram</h2>
+                <p>See our latest photos and stories</p>
+                <a href="https://www.instagram.com/yourgotogirl_events?igsh=dmhrM3o3NDZxem5o" class="social-link">Follow us</a>
+            </div>
+            <div class="block">
+                <i class="fab fa-whatsapp"></i>
+                <h2>WhatsApp</h2>
+                <p>Chat with us for instant support</p>
+                <a href="https://wa.me/+27613489176" class="social-link">Message us</a>
+            </div>
+            <div class="block">
+                <i class="fas fa-envelope"></i>
+                <h2>Email</h2>
+                <p>Reach out to us anytime</p>
+                <a href="mailto:info@yourgotogirl.co.za" class="social-link">Contact us</a>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Book an Appointment or Send a Query</h2>
+            <form id="appointmentForm">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+                </div>
+
+                <div class="form-group">
+                    <label for="service">Service Type</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a service</option>
+                        <option value="consultation">Consultation</option>
+                        <option value="styling">Personal Styling</option>
+                        <option value="makeup">Venue show</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="Tell us about your requirements"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Go To Girl. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
